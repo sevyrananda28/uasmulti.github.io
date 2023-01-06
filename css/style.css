@@ -1,0 +1,255 @@
+:root {
+  --pr-color: #041d0d;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #9fa79b;
+}
+
+.nav-color {
+  background-color: #00782c83;
+}
+/* Navbar style */
+.navbar {
+  z-index: 3;
+}
+
+* {
+  z-index: 2;
+}
+
+.img-hero {
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button-primary:hover {
+  width: 133px;
+  height: 40px;
+  background-color: rgb(0, 135, 14);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Hero Section */
+
+#hero {
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  height: 100vh;
+  width: 100;
+}
+
+.img-hero {
+  height: 100%;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.hero-tagline p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 50px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.button-lg-primary:hover {
+  width: 237px;
+  height: 50px;
+  background-color: rgb(0, 135, 14);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Starter Kit Section */
+
+#starterkit {
+  padding: 100px 0;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #000;
+}
+
+.card-starterkit {
+  width: 100%;
+  height: 360px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+  transition: all 0.1s ease-in;
+}
+
+.card-starterkit h3 {
+  color: var(--pr-color);
+  font-size: 24px;
+  transition: all 0.2s ease-in;
+}
+
+.card-starterkit p {
+  color: #000;
+  font-size: 14px;
+  transition: all 0.3s ease-in;
+}
+
+/* Hover */
+.card-starterkit:hover {
+  width: 100%;
+  height: 360px;
+  border-radius: 5px;
+  background: linear-gradient(160deg, var(--pr-color), rgb(5, 85, 53));
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+.card-starterkit:hover .circle-icon {
+  background-color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.card-starterkit:hover h3 {
+  color: #fff;
+  font-size: 24px;
+  transition: all 0.2s ease-in;
+}
+
+.card-starterkit:hover p {
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.2s ease-in;
+}
+
+/* Scan section */
+#scan {
+  background: url(../scan.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#scan h3 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+#scan p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+.input-scan {
+  height: 25px;
+}
+
+.input-scan:focus {
+  border: none;
+}
+
+.input-scan .button-primary {
+  height: 60px;
+  background-color: #ad9312;
+  color: #fff;
+  border: none;
+  font-size: 36px;
+  font-weight: 500;
+  border-radius: 0 10px 0 10px;
+}
+
+.input-scan .button-primary:hover {
+  height: 60px;
+  background-color: #035f2e;
+  color: #fff;
+  border: none;
+  font-size: 36px;
+  font-weight: 500;
+  border-radius: 0 10px 0 10px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 0 0;
+}
+
+.nav-tabs .nav-link {
+  color: #000;
+  border: none;
+}
+
+footer {
+  width: 100%;
+  height: 12px;
+  color: #fff;
+  background: #000;
+}

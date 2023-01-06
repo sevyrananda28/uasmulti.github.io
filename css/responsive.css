@@ -1,0 +1,62 @@
+@media screen and (max-width: 922px) {
+}
+
+@media screen and (max-width: 400px) {
+  .hero-tagline h1 {
+    line-height: 15px;
+  }
+
+  .hero-tagline p {
+    font-size: 14px;
+  }
+
+  .img-hero {
+    width: 95%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  .card-starterkit {
+    margin: 15px 0;
+  }
+
+  .wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sub-title {
+    font-size: 16px;
+  }
+
+  #scan h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .input-scan .button-primary {
+    height: 40px;
+    background-color: #566305;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0 10px 0 10px;
+  }
+
+  .input-scan .button-primary:hover {
+    height: 40px;
+    background-color: #035f2e;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0 10px 0 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}
